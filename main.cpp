@@ -71,7 +71,7 @@ int main() {
     cout << "\n>>> Test 7: Final Undo to Restore empty list" << endl;
     list.Undo();//Undo append 15
     list.Undo();//Undo append 5
-    printList(list);
+    printList(list);// Expected: (empty)
 
     cout << "\n>>> Test 8: Undo on Empty List" << endl;
         list.Undo();
